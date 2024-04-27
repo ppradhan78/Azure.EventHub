@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF826DD7-9F64-48B4-82BB-79240DD9D8CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{71433697-DBAA-4FFE-AA5B-9D036DD3BBAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrosoftAzure.EventHub.API", "src\MicrosoftAzure.EventHub.API\MicrosoftAzure.EventHub.API.csproj", "{5F93C221-EEA4-4283-8A81-CA47B6F9BD75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrosoftAzure.EventHub.Data", "src\MicrosoftAzure.EventHub.Data\MicrosoftAzure.EventHub.Data.csproj", "{5490858A-D488-44D7-8C39-F2324D29FEB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrosoftAzure.EventHub.Test", "test\MicrosoftAzure.EventHub.Test\MicrosoftAzure.EventHub.Test.csproj", "{31C38E7B-DD14-4C3F-AC5E-FC36885C288A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F93C221-EEA4-4283-8A81-CA47B6F9BD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F93C221-EEA4-4283-8A81-CA47B6F9BD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F93C221-EEA4-4283-8A81-CA47B6F9BD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F93C221-EEA4-4283-8A81-CA47B6F9BD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5490858A-D488-44D7-8C39-F2324D29FEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5490858A-D488-44D7-8C39-F2324D29FEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5490858A-D488-44D7-8C39-F2324D29FEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5490858A-D488-44D7-8C39-F2324D29FEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C38E7B-DD14-4C3F-AC5E-FC36885C288A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C38E7B-DD14-4C3F-AC5E-FC36885C288A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C38E7B-DD14-4C3F-AC5E-FC36885C288A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C38E7B-DD14-4C3F-AC5E-FC36885C288A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F93C221-EEA4-4283-8A81-CA47B6F9BD75} = {AF826DD7-9F64-48B4-82BB-79240DD9D8CA}
+		{5490858A-D488-44D7-8C39-F2324D29FEB8} = {AF826DD7-9F64-48B4-82BB-79240DD9D8CA}
+		{31C38E7B-DD14-4C3F-AC5E-FC36885C288A} = {71433697-DBAA-4FFE-AA5B-9D036DD3BBAD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B44E160E-E9CC-44D3-9471-5B4DAC089496}
+	EndGlobalSection
+EndGlobal
